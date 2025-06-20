@@ -6,7 +6,22 @@
   import Counter from './lib/Counter.svelte'
   import landcape from './assets/g9qs6xez97871.jpg'
 
-  onMount(() => {
+  gsap.registerPlugin(SplitText)
+
+  // Variable par condictional rendering
+  //let seeCount = false
+  /*
+  const tl = gsap.timeline({
+      defaults: {
+        duration: 2,
+        // Al completar la animacion, cambia el valor de la variable
+        // para que se muestre el componente
+        // onComplete: () => {
+          // seeCount =true
+        // }
+      }
+    })
+  */
     /* Primer ejemplo de animación 
     gsap.to('div', {
       x: 220,
@@ -66,6 +81,11 @@
     <span>Texto del cuadrado</span>
   </div>
 
+  <!--
+  {#if seeCount}
+    <Counter />
+  {/if}
+  -->
 </section>
 
 <!--
