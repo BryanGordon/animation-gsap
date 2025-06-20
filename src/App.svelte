@@ -35,27 +35,21 @@
     })
     */
 
+    /* Segundo ejemplo de animación
     gsap.to('.box.blue', {
       x: 300,
-      opacity: 0.1,
+      opacity: 0.5,
       scale: 0.5,
-      duration: 1.5,
-      rotate: 360,
-      yoyo: true,
-      repeat: 2,
-      ease: 'bounce.out'
+      duration: 2,
     })
 
     gsap.to('.box.pink', {
-      x: 300,
-      opacity: 0.1,
       scale: 0.5,
-      duration: 1.5,
-      rotate: 360,
-      yoyo: true,
-      repeat: 2
     })
 /*
+    */
+
+    /* Animacion de una imagen
     gsap.to('img', {
       duration: 1,
       scale: 0.9,
@@ -69,6 +63,7 @@
       }
     })
 */
+    */
   })
 </script>
 
