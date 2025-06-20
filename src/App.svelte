@@ -22,6 +22,26 @@
       }
     })
   */
+    /*
+    // Animacion con uso de timeline
+    tl.to('.box.blue', {
+      x: 300,
+      opacity: 0.5,
+      scale: 0.5,
+    })
+    .to('.box.pink', {
+      y: -217,
+      opacity: 0.5,
+      scale: 0.5,
+    }, '<')
+    .to('.box.yellow', {
+      x: 150,
+      y: -437,
+      opacity: 0.5,
+      scale: 0.5,
+    }, '-=1.5')
+    */
+
     /* Primer ejemplo de animación 
     gsap.to('div', {
       x: 220,
@@ -44,9 +64,21 @@
     })
 
     gsap.to('.box.pink', {
+      y: -217,
+      opacity: 0.5,
       scale: 0.5,
+      duration: 2,
+      delay: 2
+   })
+
+    gsap.to('.box.yellow', {
+      x: 150,
+      y: -437,
+      opacity: 0.5,
+      scale: 0.5,
+      duration: 2,
+      delay: 3
     })
-/*
     */
 
     /* Animacion de una imagen
@@ -62,7 +94,6 @@
         from: 'center'
       }
     })
-*/
     */
   })
 </script>
