@@ -99,6 +99,10 @@
 </script>
 
 <section>
+  <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque quasi laborum tempore enim maxime exercitationem distinctio quam molestiae magni ex?</h1>
+</section>
+<!--
+<section>
   <div class="box blue">
     <span>Texto del cuadrado</span>
   </div>
@@ -106,6 +110,12 @@
   <div class="box pink">
     <span>Texto del cuadrado</span>
   </div>
+
+  <div class="box yellow">
+    <span>Texto del cuadrado</span>
+  </div>
+</section>
+-->
 
   <!--
   {#if seeCount}
