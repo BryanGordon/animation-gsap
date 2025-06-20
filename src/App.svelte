@@ -175,11 +175,18 @@
   section {
     margin-block: 50px;
   }
-
+  
+  h1 {
+    color: skyblue;
+    text-align: center;
+    font-size: 25px;
+    text-wrap: balance;
+  }
+  /*
   .box {
     border-radius: 12px;
-    width: 280px;
-    height: 280px;
+    width: 200px;
+    height: 200px;
     background-color: aquamarine;
     margin-bottom: 20px;
   }
@@ -191,10 +198,32 @@
   .box.pink {
     background-color: pink;
   }
+
+  .box.yellow {
+    background-color: yellow;
+  }
+
   .box > span {
     font-size: 20px;
     color: black;
   }
+
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    color: white;
+  }
+  */
 
   /*
   .grid {
