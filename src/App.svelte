@@ -96,6 +96,20 @@
     })
     */
   })
+  /*
+  // Funciones para controlar el timeline
+  const handlePlay = () => {
+    tl.play()
+  }
+
+  const handlePause = () => {
+    tl.pause()
+  }
+
+  const handleRestart = () => {
+    tl.restart()
+  }
+  */
 </script>
 
 <section>
@@ -122,7 +136,15 @@
     <Counter />
   {/if}
   -->
+<!--
+<section>
+  <div class="button-container">
+    <button on:click={() => handlePlay()}>Play</button>
+    <button on:click={() => handlePause()}>Pause</button>
+    <button  on:click={() => handleRestart()}>Restart</button>
+  </div>
 </section>
+-->
 
 <!--
 <section>
