@@ -1,7 +1,8 @@
 <script>
   import { onMount } from 'svelte'
-  import { gsap } from 'gsap';
-  
+  import { gsap } from 'gsap'
+  import { SplitText } from 'gsap/SplitText'
+
   import Counter from './lib/Counter.svelte'
   import landcape from './assets/g9qs6xez97871.jpg'
 
