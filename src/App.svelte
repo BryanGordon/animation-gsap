@@ -22,6 +22,19 @@
       }
     })
   */
+ 
+ onMount(() => {
+    const splitText = new SplitText('h1', {
+      type: 'lines',
+    })
+
+    gsap.from(splitText.lines, {
+      duration: 1.5,
+      y: 100,
+      //opacity: 0,
+      autoAlpha: 0, // Hace algo parecido a opacity, pero con display none
+      stagger: 0.5
+    })
     /*
     // Animacion con uso de timeline
     tl.to('.box.blue', {
